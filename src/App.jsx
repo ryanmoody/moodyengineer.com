@@ -1,12 +1,11 @@
+import Header from './components/Header';
+import Footer from './components/Footer';
 import art from './assets/art.png';
 
 const App = () => {
   return (
     <div className="container mx-auto flex min-h-screen max-w-4xl flex-col bg-white p-4">
-      <header className="container mx-auto mt-2">
-        <h1 className="text-4xl font-bold">Ryan Moody</h1>
-        <p className="text-2xl">Frontend Software Engineer</p>
-      </header>
+      <Header />
       <main className="container mx-auto flex-1">
         <div className="my-48">
           <img alt="Spiral Art" className="mx-auto h-96 w-96" src={art} />
@@ -84,9 +83,7 @@ const App = () => {
           </section>
         </div>
       </main>
-      <footer className="container mx-auto">
-        <p>Copyright &copy; 2023 Ryan Moody</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
