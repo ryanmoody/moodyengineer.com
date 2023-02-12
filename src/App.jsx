@@ -16,11 +16,7 @@ const App = () => {
           </h2>
           <p className="text-2xl">
             I'm a frontend software engineer specializing in building beautiful,
-            performant and accessible user interfaces. To me, the user is
-            <span className="italic"> everything</span>. Our next opportunity to
-            create something amazing is just over the horizon. If you want to
-            work together,
-            <span className="italic"> let's chat!</span>
+            performant and accessible user interfaces.
           </p>
         </div>
         <div className="mb-32">
